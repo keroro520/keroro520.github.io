@@ -1,5 +1,16 @@
 theme: minima
 
+title: joy joy
 author:
   name: Kero
   email: "keroroxx520@gmail.com"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,         user_url: "https://github.com/keroro520" }
+    - { platform: x,              user_url: "https://x.com/keroroxx520" }
