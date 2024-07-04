@@ -24,13 +24,10 @@ layout: base
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-
-      {% toc %}
-
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+   {{ content | toc}}
   </div>
 
   {%- if site.disqus.shortname -%}
