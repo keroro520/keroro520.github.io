@@ -1,9 +1,10 @@
 remote_theme: jekyll/minima
 
-title: joy joy
-author:
-  name: Kero
-  email: "keroroxx520@gmail.com"
+title: "keroro520.github.io"
+
+# author:
+#   name: Kero
+#   email: "keroroxx520@gmail.com"
 
 plugins:
   - jekyll-feed
