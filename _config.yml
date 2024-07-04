@@ -17,10 +17,8 @@ minima:
     - { platform: github,         user_url: "https://github.com/keroro520" }
     - { platform: x,              user_url: "https://x.com/keroroxx520" }
 
-# TOC Settings
-toc:
-  min_level: 1
-  max_level: 3
-  list_class: toc
-  list_class: toc__list
-  sublist_class: toc__sublist
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
