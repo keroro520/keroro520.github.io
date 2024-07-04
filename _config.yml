@@ -9,16 +9,9 @@ title: "keroro520.github.io"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-toc
 
 minima:
   skin: auto
   social_links:
     - { platform: github,         user_url: "https://github.com/keroro520" }
     - { platform: x,              user_url: "https://x.com/keroroxx520" }
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      toc: true
