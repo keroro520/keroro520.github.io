@@ -6,6 +6,8 @@ title: "keroro520.github.io"
 #   name: Kero
 #   email: "keroroxx520@gmail.com"
 
+markdown: kramdown
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
