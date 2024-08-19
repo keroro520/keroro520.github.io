@@ -16,9 +16,10 @@
 
 代数基本定理告诉我们，$f(z) = a_nz^n + a_{n-1}z^{n-1} + ... + a_1z + a_0 = 0 (a_n \neq 0)$ 在复数域上恰有 $n$ 个根，在实数域上最多有 $n$ 个根。
 
-如果有两个多项式 $f(X)$ 和 $g(X)$ 同为两个次数不超过 $d$ 的多项式。那么 Verifier 只需要给出一个随机挑战值 $\zeta\in \mathbb{F}$，计算 $f(\zeta)$ 是否等于 $g(\zeta)$ 即可大概率得知 $f(X)=g(X)$，其中出错的概率 $\leq\frac{d}{|\mathbb{F}|}$。只要保证 $\mathbb{F}$ 足够大，那么检查出错的概率就可以忽略不计。
 
-![image](https://github.com/user-attachments/assets/7802d01c-a445-4fbe-9f74-7e1a19af84d7)
+如果有两个多项式 $f(X)$ 和 $g(X)$ 同为两个次数不超过 $d$ 的多项式。那么 Verifier 只需要给出一个随机挑战值 $\zeta\in \mathbb{F}$，计算 $f(\zeta)$ 是否等于 $g(\zeta)$ 即可大概率得知 $f(X)=g(X)$，其中出错的概率 $\leq \frac{d}{ \lvert \mathbb{F} \rvert }$。只要保证 $\mathbb{F}$ 足够大，那么检查出错的概率就可以忽略不计。
+
+![image](https://github.com/user-attachments/assets/7802d01c-a445-4fbe-9f74-7e1a19af84d7){: width="50%"}
 
 ### See Also
 
