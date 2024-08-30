@@ -1,8 +1,6 @@
 #zkp
 
-## Schwartz-Zippel Lemma
-
-### WHEN Schwartz-Zippel Lemma
+### When Schwartz-Zippel Lemma
 
 证明系统一般分为三个阶段：算术化阶段先将一个计算问题等价映射为多项式形式的约束；IOP 阶段再将约束转为多项式求解困难问题；PCS 阶段最后使用承诺系统来实现零知识。
 
@@ -12,7 +10,7 @@
 
 将离散键值对转换为有限域上的连续函数，就是基于 Schwartz-Zippel Lemma 的理论基础。我们将初始的确定性问题转为了概率性问题，然后基于 Schwartz-Zippel Lemma 可知，该概率性问题是等价于多项式求解困难的 NP 问题。
 
-### WHAT is Schwartz-Zippel Lemma
+### What is Schwartz-Zippel Lemma
 
 代数基本定理告诉我们，$f(z) = a_nz^n + a_{n-1}z^{n-1} + ... + a_1z + a_0 = 0 (a_n \neq 0)$ 在复数域上恰有 $n$ 个根，在实数域上最多有 $n$ 个根。
 
@@ -20,7 +18,7 @@
 
 ![image](/assets/schwartz-zippel-lemma.png){: width=70% height=70% }
 
-### See Also
+### Reference
 
 - <https://en.wikipedia.org/wiki/Schwartz%E2%80%93Zippel_lemma>
 - <https://people.cs.georgetown.edu/jthaler/IPsandextensions.pdf>

@@ -1,7 +1,5 @@
 #zkp #math
 
-## Finite Domain Terminology
-
 **群**：具有封闭**加法运算**的集合称为群
 
 **环**：在群的基础上，添加一种**乘法运算**。但每个元素不一定有乘法逆元。
@@ -48,7 +46,7 @@
 
 **伽罗瓦域**：有限域
 
-### See Also
+**See Also**
 
 - [密码学03｜群和公钥加密_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1KG4y1G7ZB/?spm_id_from=333.880.my_history.page.click&vd_source=b7d8f4fe7d99d7045075d9b1f350612b)
 - [密码学04｜Hacker Dōjo 数字签名与KZG承诺_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV17e411N7Jm/?spm_id_from=333.999.0.0&vd_source=b7d8f4fe7d99d7045075d9b1f350612b)
