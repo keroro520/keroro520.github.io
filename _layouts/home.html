@@ -9,6 +9,7 @@ layout: base
 
   {{ content }}
 
+  <p><a href="{{ '/about/' | relative_url }}">About</a></p>
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}

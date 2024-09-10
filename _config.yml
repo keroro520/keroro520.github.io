@@ -6,6 +6,8 @@ title: "keroro520.github.io"
 #   name: Kero
 #   email: "keroroxx520@gmail.com"
 
+include: ['about.md']
+
 markdown: kramdown
 
 plugins:
