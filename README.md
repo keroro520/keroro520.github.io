@@ -4,5 +4,5 @@
 
 ## Articles
 
-- [Finite Domain Terminology.md](./_posts/2024-08-04-Finite%20Domain%20Terminology.md)
-- [Swartz-Zippel Lemma.md](./_posts/2024-08-05-Swartz-Zippel%20Lemma.md)
+- [📚 Finite Domain Terminology.md](./_posts/2024-08-04-Finite%20Domain%20Terminology.md)
+- [📚 Swartz-Zippel Lemma.md](./_posts/2024-08-05-Swartz-Zippel%20Lemma.md)

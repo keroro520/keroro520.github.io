@@ -6,44 +6,84 @@ permalink: /about/
 
 ## 基本信息
 
--  Email: [keroroxx520@gmail.com](keroroxx520@gmail.com)
-- GitHub: [github.com/keroro520](https://github.com/keroro520)
--   Blog: [keroro520.github.io](https://keroro520.github.io)
+-  Email: <keroroxx520@gmail.com>
+- GitHub: <https://github.com/keroro520>
+-   Blog: <https://keroro520.github.io>
 
 ## 求职意向
 
 - 岗位偏好: 公链基础设施开发、ZK 基础设施开发、ZK 应用开发
 - 工作方式: 远程工作
-- 技术栈: Rust, Golang, TypeScript, [Nervos CKB](https://github.com/nervosnetwork/ckb), [Optimism](https://github.com/ethereum-optimism/optimism), [RISC Zero](https://risczero.com/), StarkNet
+- 技术栈: Rust, Golang, [Nervos CKB](https://github.com/nervosnetwork/ckb), [Optimism](https://github.com/ethereum-optimism/optimism), [RISC Zero](https://risczero.com/), StarkNet
 
 ## 项目经历
 
+### 2024.04 ~ 至今 | 休息 & 探索
+
+这段 gap 期间，我主要探索了区块链的应用开发和 zero-knowledge 的理论和开发。
+
+Zero-knowledge 理论方面，我学习了 PLONK 和 STARK，以安比实验室的两门课程 [PLONK course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk) 和 [STARK & FRI course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark) 为线索，学习理论知识。
+
+Zero-knowledge 实践方面，我研究了 StarkNet 和 Risc Zero 的基础设施，并尝试用 [RISC Zero's zkVM](https://risczero.com/) 构造 zk 应用，并集成到区块链 [zk-puzzle-chain](https://github.com/keroro520/zk-puzzle-chain)。
+
+应用开发方面，开发了几个玩具项目，但是我并未很感兴趣，只有 [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) 是成型的项目。
+
+| Public Project | Description |
+| --- | --- |
+| [zk-Puzzle Chain](https://github.com/keroro520/zk-puzzle-chain) | A Simple Chain, Integrating RISC-Zero's zkVM for PoW |
+| [LC3 zkVM](https://github.com/keroro520/lc3-zkvm) | LC3 Zero-Knowledge Virtual Machine |
+| [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) | An Extension of CKB Spore Protocol |
+| [CKB Time Oracle](https://github.com/keroro520/ckb-time-oracle-contract/blob/main/docs/rfc.md) | A Time Oracle on CKB |
+
 ### 2022.12 ~ 2024.04 | [NodeReal](https://nodereal.io/) | [opBNB](https://github.com/bnb-chain/opbnb)
 
-- 基于 [OP Stack](https://github.com/ethereum-optimism/optimism) 开发和维护 [opBNB](https://github.com/bnb-chain/opbnb)。opBNB 是一条以 [BSC](https://github.com/bnb-chain/bsc) 为 L1 的 L2。
+opBNB 是一个 Optimistic Rollup L2，以 BSC 为 L1，基于 [OP Stack](https://github.com/ethereum-optimism/optimism) 开发。
 
-### 2022.04 ~ 2022.12 | [秘猿科技](https://cryptape.com) | Godwoken Team
-- 开发 Godwoken 的合约脚本 [godwoken-scripts](https://github.com/nervosnetwork/godwoken-scripts)
-- 开发 Godwoken 的以太坊兼容层 [godwoken-web3](https://github.com/nervosnetwork/godwoken-web3)
-- 开发用于部署和测试 Godwoken 工具链: [godwoken-kicker](https://github.com/RetricSu/godwoken-kicker/)
-- 开发 Godwoken Core: [godwoken](https://github.com/nervosnetwork/godwoken)
+对于 opBNB 而言，我的主要工作是基于 OP Stack 做区块链的定制开发，并维护 opBNB 的测试网和主网。此外，我也参与了 opBNB 的相关基础设施的开发，包括但不限于：[opBNB bridge](https://opbnb-bridge.bnbchain.org/), high-available sequencers。
 
-Godwoken 是一条以 CKB 为 layer1 的 layer2 区块链，Optimistic Rollup 模型，完全兼容以太坊生态。
+我还发掘到一个 Optimism 的智能合约的重要的 bug，参见 <https://github.com/bnb-chain/opbnb/pull/114> 。
 
-### 2019.03 ~ 2022.03 | [秘猿科技](https://cryptape.com) | CKB Team
-- 开发 [CKB Core](https://github.com/nervosnetwork/ckb)
-- 测试 CKB: [ckb-test](https://github.com/nervosnetwork/ckb/tree/develop/test), [ckb-integration-test](https://github.com/nervosnetwork/ckb-integration-test), [ckb-bench](https://github.com/nervosnetwork/ckb-integration-test/tree/main/ckb-bench)
-- 监控 CKB 和收集 CKB 网络的信息: [ckb-analyzer](https://github.com/cryptape/ckb-analyzer/)
-- 开发 CKB 的运维脚本和 CI 脚本，托管在私有仓库
+| Public Project | Description |
+| --- | --- |
+| [opBNB](https://github.com/bnb-chain/opbnb) | opBNB node implementation |
+| [opBNB Coordinator](https://github.com/keroro520/op-coordinator) | opBNB Coordinator ensures that there will be one and only one instance of Optimism sequencer is producing blocks at any given time |
+
+### 2022.04 ~ 2022.12 | [秘猿科技](https://cryptape.com) | [Nervos Godwoken](https://github.com/godwokenrises/godwoken)
+
+Godwoken 是一个 Optimistic Rollup L2，以 [Nervos CKB](https://github.com/nervosnetwork/ckb) 为 L1，兼容以太坊生态。
+
+对于 Godwoken 而言，我的主要工作是开发 Godwoken Core，这是一个兼容以太坊接口的节点客户端。除了节点客户端，我也参与了 [Godwoken 的合约](https://github.com/godwokenrises/godwoken/tree/develop/gwos) 和以太坊兼容层 [godwoken-web3](https://github.com/godwokenrises/godwoken/tree/develop/web3) 的开发。
+
+使用 Rust 开发节点、用 C 开发合约、用 TypeScript 开发对外兼容层和工具链，这次的“全栈”经历让我对“全栈”有了浓厚的兴趣。
+
+| Public Project | Description |
+| --- | --- |
+| [Godwoken](https://github.com/godwokenrises/godwoken) | Godwoken node implementation |
+| [Godwoken OS](https://github.com/godwokenrises/godwoken/tree/develop/gwos) | Godwoken Contracts |
+| [Godwoken Web3](https://github.com/godwokenrises/godwoken/tree/develop/web3) | Godwoken Gateway, Compatible Ethereum API |
+| [Godwoken Kicker](https://github.com/godwokenrises/godwoken-kicker) | One line command to start a local network of Godwoken |
+
+### 2019.03 ~ 2022.03 | [秘猿科技](https://cryptape.com) | [Nervos CKB](https://github.com/nervosnetwork/ckb)
 
 CKB 是一条无需许可公链，采用 [NC-MAX](https://www.esat.kuleuven.be/cosic/publications/article-3290.pdf) 共识、UTXO-based 编程模型、自研 [CKB-VM 虚拟机](https://github.com/nervosnetwork/ckb-vm)、支持智能合约。更多信息请参考 [nervosnetwork rfcs](https://github.com/nervosnetwork/rfcs)。
 
-这是我主要的任职经历。除了很偏底层的虚拟机和存储引擎，CKB 的各个模块我都有参与。除了常规开发工作，也主要负责了 CKB 的自动化测试和自动化运维，这使得我的技能树更全面，也得以从多个视角去观察 CKB。
+这是我主要的任职经历。除了很偏底层的虚拟机和存储引擎，CKB 的各个模块我都有参与。除了常规开发工作，也主要负责了 CKB 的自动化测试和自动化运维，这使得我的技能树更全面，也得以从多个视角去观察 CKB。加入这么一个技术氛围浓厚的团队，我感到非常幸运。在这里，我们从头构建一条独特的公链，这是非常难得的机会。
 
-区块链尤其重视安全，因此我认为对于区块链项目而言，有效的自动化测试非常重要；又因为无需许可区块链的**去中心化p2p网络**的特性，使得有效且清晰的测试变得复杂而困难。
+从头构建一条公链，除了在协议层要仔细设计，在工程上也要考虑仔细斟酌性能和安全，比如 p2p 网络的安全敞口、交易池的性能等。因此，高效的自动化测试非常重要，能帮助发掘潜在的安全风险。
+
+- 节点层 [CKB Core](https://github.com/nervosnetwork/ckb)
+- 自动化测试和压测  [ckb-test](https://github.com/nervosnetwork/ckb/tree/develop/test), [ckb-integration-test](https://github.com/nervosnetwork/ckb-integration-test), [ckb-bench](https://github.com/nervosnetwork/ckb-integration-test/tree/main/ckb-bench)
+- 网络爬虫和展示: [ckb-analyzer](https://github.com/cryptape/ckb-analyzer/)
+
+| Public Project | Description |
+| --- | --- |
+| [CKB](https://github.com/nervosnetwork/ckb) | CKB node implementation |
+| [CKB Integration Test](https://github.com/nervosnetwork/ckb-integration-test) | CKB integration test suite |
+| [CKB Test Suite](https://github.com/nervosnetwork/ckb/tree/develop/test) | CKB test suite |
+| [CKB Bench](https://github.com/nervosnetwork/ckb-integration-test/tree/main/ckb-bench) | CKB benchmark tool |
+| [CKB Analyzer](https://github.com/cryptape/ckb-analyzer/) | CKB network crawler and data visualization |
 
 ### 2018.09 ~ 2019.03 | [秘猿科技](https://cryptape.com) | CITA Team
-- 开发 [CITA](https://github.com/citahub/cita)
 
 CITA 是一条联盟链，采用 BFT 共识、EVM 虚拟机、微服务架构。我的主要产出是重写了 executor 的调度、实现了部署链的脚本 [cita.sh](https://github.com/citahub/cita/blob/develop/scripts/cita.sh)，以及在此期间学习了 Rust 和区块链，研究了 Plasma。
 
