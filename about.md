@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
@@ -52,7 +52,7 @@ opBNB 是一个 Optimistic Rollup L2，以 BSC 为 L1，基于 [OP Stack](https:
 
 Godwoken 是一个 Optimistic Rollup L2，以 [Nervos CKB](https://github.com/nervosnetwork/ckb) 为 L1，兼容以太坊生态。
 
-对于 Godwoken 而言，我的主要工作是开发 Godwoken Core，这是一个兼容以太坊接口的节点客户端。除了节点客户端，我也参与了 [Godwoken 的合约](https://github.com/godwokenrises/godwoken/tree/develop/gwos) 和以太坊兼容层 [godwoken-web3](https://github.com/godwokenrises/godwoken/tree/develop/web3) 的开发。
+作为 Godwoken 核心开发，我的主要工作是开发 Godwoken Core，这是一个兼容以太坊接口的节点客户端。除了节点客户端，我也参与了 [Godwoken 的合约](https://github.com/godwokenrises/godwoken/tree/develop/gwos) 和以太坊兼容层 [godwoken-web3](https://github.com/godwokenrises/godwoken/tree/develop/web3) 的开发。
 
 使用 Rust 开发节点、用 C 开发合约、用 TypeScript 开发对外兼容层和工具链，这次的“全栈”经历让我对“全栈”有了浓厚的兴趣。
 
@@ -67,39 +67,41 @@ Godwoken 是一个 Optimistic Rollup L2，以 [Nervos CKB](https://github.com/ne
 
 CKB 是一条无需许可公链，采用 [NC-MAX](https://www.esat.kuleuven.be/cosic/publications/article-3290.pdf) 共识、UTXO-based 编程模型、自研 [CKB-VM 虚拟机](https://github.com/nervosnetwork/ckb-vm)、支持智能合约。更多信息请参考 [nervosnetwork rfcs](https://github.com/nervosnetwork/rfcs)。
 
-这是我主要的任职经历。除了很偏底层的虚拟机和存储引擎，CKB 的各个模块我都有参与。除了常规开发工作，也主要负责了 CKB 的自动化测试和自动化运维，这使得我的技能树更全面，也得以从多个视角去观察 CKB。加入这么一个技术氛围浓厚的团队，我感到非常幸运。在这里，我们从头构建一条独特的公链，这是非常难得的机会。
+这是我主要的任职经历。作为 CKB 核心开发，虚拟机和存储引擎，CKB 的各个模块我都有深度参与，包括交易池、p2p 网络等。除了常规开发工作，也主要负责了 CKB 的自动化测试和运维，这使得我的技能树更全面，也得以从多个视角去观察 CKB。加入这么一个技术氛围浓厚的团队，我感到非常幸运。在这里，我们从头构建一条独特的公链，这是非常难得的机会。
 
-从头构建一条公链，除了在协议层要仔细设计，在工程上也要考虑仔细斟酌性能和安全，比如 p2p 网络的安全敞口、交易池的性能等。因此，高效的自动化测试非常重要，能帮助发掘潜在的安全风险。
+还想再补充一句，从头构建一条公链，除了在协议层要仔细设计，在工程上也要考虑仔细斟酌性能和安全，比如 p2p 网络的安全敞口、交易池的性能等。因此，高效的自动化测试非常重要，能帮助发掘潜在的安全风险。
 
-- 节点层 [CKB Core](https://github.com/nervosnetwork/ckb)
-- 自动化测试和压测  [ckb-test](https://github.com/nervosnetwork/ckb/tree/develop/test), [ckb-integration-test](https://github.com/nervosnetwork/ckb-integration-test), [ckb-bench](https://github.com/nervosnetwork/ckb-integration-test/tree/main/ckb-bench)
-- 网络爬虫和展示: [ckb-analyzer](https://github.com/cryptape/ckb-analyzer/)
-
-| Public Project | Description |
-| --- | --- |
-| [CKB](https://github.com/nervosnetwork/ckb) | CKB node implementation |
-| [CKB Integration Test](https://github.com/nervosnetwork/ckb-integration-test) | CKB integration test suite |
-| [CKB Test Suite](https://github.com/nervosnetwork/ckb/tree/develop/test) | CKB test suite |
-| [CKB Bench](https://github.com/nervosnetwork/ckb-integration-test/tree/main/ckb-bench) | CKB benchmark tool |
-| [CKB Analyzer](https://github.com/cryptape/ckb-analyzer/) | CKB network crawler and data visualization |
+| Public Project                                                                         | Description                                |
+| -------------------------------------------------------------------------------------- | ------------------------------------------ |
+| [CKB](https://github.com/nervosnetwork/ckb)                                            | CKB node implementation                    |
+| [CKB Integration Test](https://github.com/nervosnetwork/ckb-integration-test)          | CKB integration test suite                 |
+| [CKB Test Suite](https://github.com/nervosnetwork/ckb/tree/develop/test)               | CKB test suite                             |
+| [CKB Bench](https://github.com/nervosnetwork/ckb-integration-test/tree/main/ckb-bench) | CKB benchmark tool                         |
+| [CKB Analyzer](https://github.com/cryptape/ckb-analyzer/)                              | CKB network crawler and data visualization |
+| [CKB CLI](https://github.com/nervosnetwork/ckb-cli)                                    | CKB command line interface in Rust         |
 
 ### 2018.09 ~ 2019.03 | [秘猿科技](https://cryptape.com) | CITA Team
 
 CITA 是一条联盟链，采用 BFT 共识、EVM 虚拟机、微服务架构。我的主要产出是重写了 executor 的调度、实现了部署链的脚本 [cita.sh](https://github.com/citahub/cita/blob/develop/scripts/cita.sh)，以及在此期间学习了 Rust 和区块链，研究了 Plasma。
 
 ### 2018.01 ~ 2018.07 | 网易杭州研究院 | 分布式存储
-- 开发分布式对象存储系统 NEFS
 
 NEFS 是一个可扩展、高性能的 KV 文件系统，以 Golang 为主要编程语言，采用 PacificA 共识框架。
 
+我的职责是开发分布式对象存储系统 NEFS。
+
 ### 2015.03 ~ 2018.01 | [又拍云](https://www.upyun.com/) | 分布式存储（网关）
-- 文件元数据存储系统，Kafka 分发、PostgreSQL 存储、Consul 服务发现
-- 文件块数据存储系统，基于 [Riak](https://github.com/basho/riak) 改造
-- 文件索引数据存储系统，基于 [Riak](https://github.com/basho/riak) 改造
-- 服务网关
 
 以 [Elixir](https://elixir-lang.org/) 和 [Erlang](https://www.erlang.org/) 为主要编程语言。整个系统的难点是保障数据一致性，即虽然各类信息分别存储在不同的系统，但用户观测到的文件元数据、块数据、索引信息要求是一致的。
+
 又拍云推崇 DevOps，所以我除了日常开发、规划项目外，还重度参与了监控、部署、故障处理等运维工作。
+
+| Project | Description |
+| --- | --- |
+| 文件元数据存储系统 | Kafka 分发、PostgreSQL 存储、Consul 服务发现 |
+| 文件块数据存储系统 | 基于 [Riak](https://github.com/basho/riak) 改造 |
+| 文件索引数据存储系统 | 基于 [Riak](https://github.com/basho/riak) 改造 |
+| 文件服务网关 | 使用 Elixir 实现的 HTTP 服务器 |
 
 ## 教育背景
 
