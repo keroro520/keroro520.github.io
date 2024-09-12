@@ -5,6 +5,8 @@ permalink: /about/
 redirect_from: [about-cn]
 ---
 
+➡️  [english version of resume](https://keroro520.github.io/about-en/)
+
 ## 基本信息
 
 - **Email**: [keroroxx520@gmail.com](mailto:keroroxx520@gmail.com)

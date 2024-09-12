@@ -4,6 +4,8 @@ title: About Me
 permalink: /about-en/
 ---
 
+➡️  [中文版本的简历](https://keroro520.github.io/about-cn/
+
 ## Basic Information
 
 - **Email**: [keroroxx520@gmail.com](mailto:keroroxx520@gmail.com)
