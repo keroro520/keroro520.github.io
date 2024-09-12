@@ -2,7 +2,7 @@ remote_theme: jekyll/minima
 
 title: "Kero"
 
-include: ['about-cn.md']
+include: ['about-cn.md', 'about-en.md']
 
 markdown: kramdown
 

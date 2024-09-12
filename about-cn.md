@@ -20,7 +20,7 @@ permalink: /about-cn/
 
 ### 2024.04 ~ 至今 | 休息 & 探索
 
-在这段休息期间，我探索了区块链应用开发和零知识证明（Zero-knowledge）的理论与实践。
+在这段休息期间，我探索了 dApp 全栈开发和零知识证明（Zero-knowledge）。
 
 Zero-knowledge 理论方面，研习 PLONK 和 STARK，以安比实验室的两门课程 [PLONK course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk) 和 [STARK & FRI course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark) 为线索，广泛学习理论知识。
 
@@ -41,7 +41,7 @@ opBNB 是一个 Optimistic Rollup L2，以 BSC 为 L1，基于 [OP Stack](https:
 
 对于 opBNB 而言，我的主要工作是基于 OP Stack 做区块链的定制开发，并维护 opBNB 的测试网和主网。此外，我也参与了 opBNB 的相关基础设施的开发，包括但不限于：[opBNB bridge](https://opbnb-bridge.bnbchain.org/), high-available sequencers。
 
-我还发掘到一个 Optimism 的智能合约的重要的 bug，参见 <https://github.com/bnb-chain/opbnb/pull/114> 。
+**我还发掘到一个 Optimism 的智能合约的重要的 bug，参见 <https://github.com/bnb-chain/opbnb/pull/114> 。**
 
 | Public Project | Description |
 | --- | --- |
