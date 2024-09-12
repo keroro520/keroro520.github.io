@@ -6,27 +6,27 @@ permalink: /about/
 
 ## 基本信息
 
--  Email: <keroroxx520@gmail.com>
-- GitHub: <https://github.com/keroro520>
--   Blog: <https://keroro520.github.io>
+- **Email**: [keroroxx520@gmail.com](mailto:keroroxx520@gmail.com)
+- **GitHub**: [https://github.com/keroro520](https://github.com/keroro520)
+- **Blog**: [https://keroro520.github.io](https://keroro520.github.io)
 
 ## 求职意向
 
-- 岗位偏好: 公链基础设施开发、ZK 基础设施开发、ZK 应用开发
-- 工作方式: 远程工作
-- 技术栈: Rust, Golang, [Nervos CKB](https://github.com/nervosnetwork/ckb), [Optimism](https://github.com/ethereum-optimism/optimism), [RISC Zero](https://risczero.com/), StarkNet
+- **岗位偏好**: 公链基础设施开发、ZK 基础设施开发、ZK 应用开发
+- **工作方式**: 远程工作
+- **技术栈**: Rust, Golang, Nervos CKB, Optimism, RISC Zero, StarkNet
 
 ## 项目经历
 
 ### 2024.04 ~ 至今 | 休息 & 探索
 
-这段 gap 期间，我主要探索了区块链的应用开发和 zero-knowledge 的理论和开发。
+在这段休息期间，我探索了区块链应用开发和零知识证明（Zero-knowledge）的理论与实践。
 
-Zero-knowledge 理论方面，我学习了 PLONK 和 STARK，以安比实验室的两门课程 [PLONK course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk) 和 [STARK & FRI course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark) 为线索，学习理论知识。
+Zero-knowledge 理论方面，研习 PLONK 和 STARK，以安比实验室的两门课程 [PLONK course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/Plonk) 和 [STARK & FRI course](https://github.com/Antalpha-Labs/zkp-academy/tree/main/FRI%26Stark) 为线索，广泛学习理论知识。
 
-Zero-knowledge 实践方面，我研究了 StarkNet 和 Risc Zero 的基础设施，并尝试用 [RISC Zero's zkVM](https://risczero.com/) 构造 zk 应用，并集成到区块链 [zk-puzzle-chain](https://github.com/keroro520/zk-puzzle-chain)。
+Zero-knowledge 实践方面，研习 StarkNet 和 Risc Zero 的基础设施和 ZK 应用开发。
 
-应用开发方面，开发了几个玩具项目，但是我并未很感兴趣，只有 [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) 是成型的项目。
+dApp 应用方面，开发了几个玩具项目，但是我并未很感兴趣，只有 [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) 是成型的项目。
 
 | Public Project | Description |
 | --- | --- |
@@ -105,7 +105,7 @@ NEFS 是一个可扩展、高性能的 KV 文件系统，以 Golang 为主要编
 
 ## 教育背景
 
-本科，南京邮电大学，信息安全专业
+- **本科**: 南京邮电大学，信息安全专业
 
 ## 校园经历
 - [算法] 高中获 [“全国青少年信息学奥林匹克联赛 NOIP”](https://zh.m.wikipedia.org/zh-hans/%E5%85%A8%E5%9B%BD%E9%9D%92%E5%B0%91%E5%B9%B4%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E8%81%94%E8%B5%9B) 一等奖
