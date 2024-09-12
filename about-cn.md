@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: 关于我
+permalink: /about-cn/
 ---
 
 ## 基本信息
