@@ -28,7 +28,7 @@ In the theoretical aspect of Zero-knowledge, I studied PLONK and STARK, using tw
 
 In the practical aspect of Zero-knowledge, I studied the infrastructure and ZK application development of StarkNet and Risc Zero.
 
-In terms of dApp applications, I developed several toy projects, but I was not very interested in them. Only the [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) is a production-ready project.
+In terms of dApp applications, I developed several toy projects. Only the [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) is a production-ready project.
 
 | Public Project | Description |
 | --- | --- |

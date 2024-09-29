@@ -29,7 +29,7 @@ Zero-knowledge 理论方面，研习 PLONK 和 STARK，以安比实验室的两�
 
 Zero-knowledge 实践方面，研习 StarkNet 和 Risc Zero 的基础设施和 ZK 应用开发。
 
-dApp 应用方面，开发了几个玩具项目，但是我并未很感兴趣，只有 [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) 是成型的项目。
+dApp 应用方面，开发了几个玩具项目，只有 [CKB Video Spore Protocol](https://github.com/video-spore-protocol/video-spore-protocol/blob/main/docs/design.md) 是成型的项目。
 
 | Public Project | Description |
 | --- | --- |
