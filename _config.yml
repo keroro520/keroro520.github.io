@@ -6,6 +6,9 @@ include: ['about-cn.md', 'about-en.md']
 
 markdown: kramdown
 
+kramdown:
+  math_engine: null
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
