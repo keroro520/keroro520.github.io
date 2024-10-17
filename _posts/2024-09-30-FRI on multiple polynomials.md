@@ -21,3 +21,5 @@ $$
 & p_3(x) = \qquad \quad p_2^{even}(x) + \beta_3 \cdot p_2^{odd}(x) 
 \end{aligned}
 $$
+
+As $t_1$ and $t_2$  is only evaluated on small domains, rather than the LDE domain which is the evaluation domain of $t_0$, so the evaluation cost is smaller and the proof size is smaller (e.g. proof of $t_1(x_0)$ is smaller than $t_0(x)$ ).
